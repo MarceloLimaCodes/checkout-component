@@ -40,7 +40,6 @@ export function CheckOut() {
 
   return (
     <div className="check-out">
-
       <div className='check-out-card'>
         <h1>Checkout</h1>
         <hr />
@@ -58,22 +57,25 @@ export function CheckOut() {
       <div className='credit-card' >
         <h1>Credit Card Details</h1>
         <hr />
+
         <form>
           <div className='div-1'>
             <label className='card-holder'>
               <p>CARD HOLDER</p>
               <input type="text" placeholder='Card Holder' />
             </label>
+
             <label className='expiration-date'>
               <p>EXPIRATION DATE</p>
 
               <div className="mm-yy">
-                <input type="text" placeholder='MM' />
+                <input type="text" maxLength={2} placeholder='MM' />
                 <span>/</span>
-                <input type="text" placeholder='YY'/>
+                <input type="text" maxLength={2} placeholder='YY'/>
               </div>
             </label>
           </div>
+
           <div className='div-2'>
             <label  className='card-number'>
               <p>CARD NUMBER</p>

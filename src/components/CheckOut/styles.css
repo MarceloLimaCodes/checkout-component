@@ -200,7 +200,7 @@
     .expiration-date .mm-yy input {
         width: 100%;
     }
-    .expiration-date .mm-yy span{
+    .expiration-date .mm-yy span {
         width: 3em;
         text-align: center;
     }
@@ -224,6 +224,5 @@
     .cvc .cvc-content input {
         width: 100%;
     }
-
 
 }
