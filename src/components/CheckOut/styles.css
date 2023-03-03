@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* CONTAINER PRINCIPAL */
+.check-out {
+    max-width: 40em;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    border-top: 5px solid #78B2EF;
+    border-radius: 2px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.167);
+}
+
+
+/* DIV CHECKOUT */
+.check-out-card {
+    padding: 2em;
+    background-color: #F7FBFF;
+}
+.check-out-card h1 {
+    font-size: 1.2em;
+    margin-top: 2px;
+}
+.check-out-card hr {
+    border-color: rgba(0, 0, 0, 0.094);
+}
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/* DIV CREDIT CARD DETAILS */
+.credit-card {
+    padding: 2em;
+}
+.credit-card h1 {
+    font-size: 1.2em;
+}
+
+
+/* FORM */
+.check-out form {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.check-out form p {
+    font-size: .8em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.514);
+}
+.check-out form div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* CARD HOLDER */
+.card-holder {
+    width: 55%;
+}
+.card-holder input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.card-holder input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+
+
+/* EXPIRATION DATE */
+.expiration-date {
+    width: 45%;
+    text-align: right;
+}
+.expiration-date p {
+    padding-right: 9em;
+}
+.expiration-date .mm-yy {
+    justify-content: right;
+}
+.expiration-date .mm-yy input {
+    width: 40%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.expiration-date .mm-yy span {
+    width: 1em;
+    text-align: center;
+    margin-top: .4em;
+}
+.expiration-date .mm-yy input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+
+/* CARD-NUMBER */
+.card-number {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.card-number input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.card-number input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+
+/* CVC */
+.cvc {
+    flex-direction: column;
+    width: 40%;
+    text-align: right;
+}
+.cvc p {
+    padding-right: 13.4em;
+}
+.cvc .cvc-content {
+    justify-content: right;
+}
+.cvc .cvc-content input {
+    width: 85%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.cvc .cvc-content input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* BUTTON */
+.check-out .btn button {
+    width: 100%;
+    margin-top: 3em;
+    padding: 1.2em;
+
+    background-color: #007BFF;
+    color: #fff;
+
+    font-size: 1em;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.check-out .btn button:hover {
+    background-color: #0065d1;
+}
+
+@media(max-width: 650px) {
+    .check-out form .div-1, 
+    .check-out form .div-2 {
+        flex-direction: column;
+    }
+
+    /* CARD HOLDER */
+    .card-holder {
+        width: 100%;
+    }
+    .card-holder input {
+        width: 100%;
+    }
+    
+    /* EXPIRATION DATE */
+    .expiration-date {
+        width: 100%;
+    }
+    .expiration-date p {
+        text-align: left;
+    }
+    .expiration-date .mm-yy input {
+        width: 100%;
+    }
+    .expiration-date .mm-yy span{
+        width: 3em;
+        text-align: center;
+    }
+    
+    /* CARD NUMBER */
+    .card-number {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-number input {
+        width: 100%;
+    }
+    
+    /* CVC */
+    .cvc {
+        width: 100%;
+        text-align: left;
+    }
+
+    .cvc .cvc-content input {
+        width: 100%;
+    }
+
+
+}

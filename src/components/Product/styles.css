@@ -1,0 +1,17 @@
+.product div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product div h1 {
+    font-size: 1em;
+}
+
+.product p {
+    display: block;
+    margin-top: -.3em;
+    color: rgba(0, 0, 0, 0.296);
+    font-weight: bold;
+    font-size: .8em;
+}
