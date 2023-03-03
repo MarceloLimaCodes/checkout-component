@@ -54,6 +54,54 @@ export function CheckOut() {
         </div>
       </div>
 
+      <div className="client-card">
+        <h1>Client</h1>
+        <hr />
+        
+        <div>
+          <label className='nome'>
+            <p>NOME</p>
+            <input type="text" placeholder='Nome' />
+          </label>
+          <label className='email'>
+            <p>EMAIL</p>
+            <input type="text" placeholder='Email' />
+          </label>
+          <label className='cpf'>
+            <p>CPF</p>
+            <input type="text" placeholder='CPF'/>
+          </label>
+        </div>
+      </div>
+
+      <div className="address-card">
+        <h1>Address</h1>
+        <hr />
+
+        <div>
+          <label className='cep'>
+            <p>CEP</p>
+            <input type="text" placeholder='CEP' />
+          </label>
+          <label className='estado'>
+            <p>ESTADO</p>
+            <input type="text" placeholder='Estado' />
+          </label>
+          <label className='bairro'>
+            <p>BAIRRO</p>
+            <input type="text" placeholder='Bairro' />
+          </label>
+          <label className='cidade'>
+            <p>CIDADE</p>
+            <input type="text" placeholder='Cidade' />
+          </label>
+          <label className='rua'>
+            <p>RUA</p>
+            <input type="text" placeholder='Rua' />
+          </label>
+        </div>
+      </div>
+
       <div className='credit-card' >
         <h1>Credit Card Details</h1>
         <hr />

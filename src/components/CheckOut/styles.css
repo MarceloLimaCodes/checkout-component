@@ -34,6 +34,185 @@
 }
 
 
+/* DIV CLIENT CARD */
+.client-card {
+    padding: 2em;
+}
+.client-card h1 {
+    font-size: 1.2em;
+}
+.client-card p {
+    font-size: .8em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.514);
+}
+.client-card div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* NOME */
+.nome {
+    width: 100%;
+}
+.nome input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.nome input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* CPF */
+.email {
+    width: 60%;
+}
+.email input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.email input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* EMAIL */
+.cpf {
+    width: 40%;
+    padding-left: 10px;
+}
+.cpf input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.cpf input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+
+/* DIV ADDRESS CARD */
+.address-card {
+    padding: 2em;
+}
+.address-card h1 {
+    font-size: 1.2em;
+}
+.address-card p {
+    font-size: .8em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.514);
+}
+.address-card div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* CEP */
+.cep {
+    width: 50%;
+    padding-left: 10px;
+}
+.cep input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.cep input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* RUA */
+.estado {
+    width: 50%;
+    padding-left: 10px;
+}
+.estado input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.estado input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* BAiRRO */
+.bairro {
+    width: 50%;
+    padding-left: 10px;
+}
+.bairro input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.bairro input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* CIDADE */
+.cidade {
+    width: 50%;
+    padding-left: 10px;
+}
+.cidade input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.cidade input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
+/* ESTADO */
+.rua {
+    width: 100%;
+    padding-left: 10px;
+}
+.rua input {
+    width: 100%;
+    padding: .7em;
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 4px;
+    transition: .3s;
+}
+.rua input:focus {
+    outline: none;
+    border-color: #0065d1;
+    box-shadow: 0px 0px 6px 0px #0065d1;
+}
+
 /* DIV CREDIT CARD DETAILS */
 .credit-card {
     padding: 2em;
