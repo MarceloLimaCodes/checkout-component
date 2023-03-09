@@ -5,7 +5,7 @@
     max-width: 40em;
     font-family: 'Open Sans', sans-serif;
     margin: auto;
-    border-top: 5px solid #78B2EF;
+    border-top: 5px solid #DE1AB8;
     border-radius: 2px;
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.167);
 }
@@ -14,7 +14,7 @@
 /* DIV CHECKOUT */
 .check-out-card {
     padding: 2em;
-    background-color: #F7FBFF;
+    background-color: #fff;
 }
 .check-out-card h1 {
     font-size: 1.2em;
@@ -65,8 +65,8 @@
 }
 .nome input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* CPF */
@@ -82,8 +82,8 @@
 }
 .email input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* EMAIL */
@@ -100,8 +100,8 @@
 }
 .cpf input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 
@@ -137,8 +137,8 @@
 }
 .cep input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* RUA */
@@ -155,8 +155,8 @@
 }
 .estado input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* BAiRRO */
@@ -173,8 +173,8 @@
 }
 .bairro input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* CIDADE */
@@ -191,8 +191,8 @@
 }
 .cidade input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* ESTADO */
@@ -209,8 +209,8 @@
 }
 .rua input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* DIV CREDIT CARD DETAILS */
@@ -251,8 +251,8 @@
 }
 .card-holder input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 
@@ -282,8 +282,8 @@
 }
 .expiration-date .mm-yy input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 
@@ -302,8 +302,8 @@
 }
 .card-number input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 
@@ -328,8 +328,8 @@
 }
 .cvc .cvc-content input:focus {
     outline: none;
-    border-color: #0065d1;
-    box-shadow: 0px 0px 6px 0px #0065d1;
+    border-color: #DE1AB8;
+    box-shadow: 0px 0px 6px 0px #DE1AB8;
 }
 
 /* BUTTON */
@@ -338,7 +338,7 @@
     margin-top: 3em;
     padding: 1.2em;
 
-    background-color: #007BFF;
+    background-color: #DE1AB8;
     color: #fff;
 
     font-size: 1em;
@@ -352,7 +352,7 @@
 }
 
 .check-out .btn button:hover {
-    background-color: #0065d1;
+    background-color: #de1ab7b4;
 }
 
 @media(max-width: 650px) {

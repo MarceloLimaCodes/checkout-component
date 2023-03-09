@@ -1,0 +1,33 @@
+.produto {
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.produto div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.produto p {
+    word-break: break-word;
+    padding: 3em;
+    color: rgba(0, 0, 0, 0.363);
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.produto h1 {
+    font-size: 5em;
+}
+
+
+/*
+    Para manter a imagem com o mesmo tamanho mantendo a responsividade, web e mobile, defina "max-height: <numero>.px" a quantidade de pixel é a maxima da foto e 
+    max-width com porcentagem para poder se adaptar ao tamanho da tela em largura.
+*/
+img {
+    max-width: 30%;
+    max-height: 110px;
+}
